@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .labels3 label{
+            float: left;
+            width: 190px;
+            margin-top: 20px;
+        }
+        .input input[type="text"]{
+            width: 500px;
+            margin-top: 15px;
+            height: 30px;
+            border: 1px solid rgba(150,150,159,1);
+        }
+        
+        .btn input{
+            background-color: #4d90fe;
+            color: white;
+            margin-right: 110px;
+            margin-top: 50px;
+        }
+        .btn input:hover{
+            background-color: #4d90ff;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        
+        <a href="index.html">Search</a>
+    </nav>
+    <span class="logo" style="display: block; padding-left: 10px;"  >
+        <img src="googlelogo_color_272x92dp.png" aria-placeholder="logo" style="width: 75px">
+    </span>
+    <div class="head">
+        <label class="heading">Advance Search</label>
+    </div><hr>
+    <span>Find pages with...</span>
+    <form action="https://www.google.com/search">
+    <div class="labels">
+        <div class="labels2">
+            <div class="labels3">
+        <label>all these words:</label>
+    </div>
+    <div class="input">
+        <input type="text" name="as_q">
+    </div>
+    </div>
+    <div class="labels2">
+        <div class="labels3">
+        <label>this exact word or phrase:</label>
+    </div>
+    <div class="input">
+        <input type="text" name="as_epq">
+    </div>
+    </div>
+    <div class="labels2">
+        <div class="labels3">
+        <label>any of these words:</label></div>
+        <div class="input">
+        <input type="text" name="as_oq">
+    </div>
+    </div>
+    <div class="labels2">
+        <div class="labels3">
+        <label>none of these words:</label></div>
+        <div class="input"><input type="text" name="as_eq"></div>
+    </div>
+    <div class="btn">
+        <input type="submit" value="Advance Search">
+    </div>
+
+        
+    </div></form>
+
+    
+</body>
+</html>
